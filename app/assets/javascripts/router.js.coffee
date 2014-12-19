@@ -1,1 +1,3 @@
-App.Router.map ()->
+App.Router.map ->
+  @resource 'leads', path: '/'
+  location: 'auto'
